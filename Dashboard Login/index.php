@@ -36,11 +36,11 @@ require_once 'components/footer.php';
         </label>
       </div>
       <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-      <a href="page2.php" class="link-secondary">Forgot your password?</a>
+      <a href="#" class="link-secondary">Forgot your password?</a>
       </div>
       
       <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-  <button class="btn btn-secondary my-5 px-4 py-2" type="button">Log in</button>
+  <button class="btn btn-secondary my-5 px-4 py-2" type="button" onclick="window.location.href='//localhost/Dashboard_Mockup/Dashboard%20Login/page2.php'">Log in</button>
 
       </div>
     </div>
