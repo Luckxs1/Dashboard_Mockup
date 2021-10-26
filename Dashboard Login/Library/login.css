@@ -1,0 +1,101 @@
+.right-box {
+  padding-top: 10%;
+  
+}
+ .btn-secondary{
+   background-color: #031206;
+ }
+ .btn-secondary:hover{
+  background-color: #045b14;
+}
+ 
+ .card-footer {
+   border-radius: 0px 0px 10px 10px !important;
+   background-color: #031206;
+ }
+.card{
+  border-radius: 10px;
+}
+ .card-body {
+  padding-left: 60px;
+  padding-right: 60px;
+ }
+.login-button {
+  padding-top: 50px;
+  padding-bottom: 50px;
+ }
+ .here-link {
+   color:#fff;
+ }
+ .here-link:hover {
+  color:#045b14;
+}
+.login-forgot-lb{
+   color: grey;
+ }
+
+.card-title {
+  margin: auto;
+  
+}
+.form {
+ 
+  width: 100%;
+  position: relative;
+  height: 60px;
+  overflow: hidden;
+  margin: auto;
+}
+
+.form input {
+  width: 100%;
+  height: 100%;
+  color: #031206;
+  padding-top: 20px;
+  border: none;
+  border-bottom: 2px solid gray !important;
+
+}
+.form label {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  border-bottom: 1px solid white;
+}
+.form label::after {
+  content: "";
+  position: absolute;
+  bottom: -1px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  border-bottom: 2px solid #031206;
+  transform: translateX(-100%);
+  transition: all 0.3s ease;
+}
+
+.content-name {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  padding-bottom: 5px;
+  transition: all 0.3s ease;
+}
+.form input:focus {
+  outline: none;
+}
+.form input:focus + .label-name .content-name,
+.form input:valid + .label-name .content-name {
+  transform: translateY(-150%);
+  font-size: 10px;
+  left: 0px;
+  color: grey;
+}
+.form input:focus + .label-name::after,
+.form input:valid + .label-name::after {
+  transform: translateX(0%);
+}
+

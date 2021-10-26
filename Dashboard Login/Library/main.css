@@ -1,0 +1,25 @@
+#loading {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    width: 100vw;
+    height: 90vh;
+    background-color: white;
+    background-image: url("../assets/raw-circle-loading.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100px 100px;
+  }
+
+  .page    { display: none;}
+
+  /* NAV */
+  .bg-dark {
+      background-color: #031206 !important;
+  }
+  
+  /* NAV */
+
+ 
