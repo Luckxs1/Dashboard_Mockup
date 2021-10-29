@@ -13,13 +13,99 @@
     background-size: 100px 100px;
   }
 
-  .page    { display: none;}
+  .page    { display: none; transition: 2s;}
 
   /* NAV */
   .bg-dark {
       background-color: #031206 !important;
   }
+  .navbar-brand img {
+    width: 250px;
+    height: 100%;
+}
+
+.bd-highlight-a {
+    width: 60;
+  }
   
   /* NAV */
 
+ /* SIDENAR */
+
+ @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap");
+body,
+button {
+  font-family: "Inter", sans-serif;
+}
+:root {
+  --offcanvas-width: 350px;
+  --topNavbarHeight: 64px;
+}
+.sidebar-nav {
+  width: var(--offcanvas-width);
+}
+.sidebar-link {
+  display: flex;
+  align-items: center;
+}
+.sidebar-link .right-icon{
+  display: inline-flex;
+}
+
+.sidebar-link[aria-expanded="true"] .right-icon {
+  transform: rotate(180deg);
+  transition: all ease 0.25s;
+}
+
+
+/* SIDENAV */
+
+
+/* // X-Small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+
+ }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    .sidebar-toggle {
+      
+        visibility: visible ;
+    }
+ }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
  
+    
+ }
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    .sidebar-toggle {
+        visibility: hidden;
+    }
+    body{
+        overflow: auto !important;
+      }
+      .offcanvas-backdrop::before{
+        display: none;
+      }
+      main {
+        margin-left: var(--offcanvas-width);
+      }
+      .sidebar-nav{
+        transform: none;
+        visibility: visible !important;
+        top:var(--topNavbarHeight);
+        height: calc(100% - var(--topNavbarHeight));
+      }
+    }
+ 
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { 
+
+ }
