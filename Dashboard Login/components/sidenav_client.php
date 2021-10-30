@@ -1,9 +1,5 @@
 <div class="offcanvas offcanvas-start sidebar-nav bg-dark text-white" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
-            <!-- <div class="offcanvas-header">
-             
-            </div> -->
-            <div class="offcanvas-body p-0">
-                
+            <div class="offcanvas-body p-0">           
                 <nav class="navbar-dark">
                     <ul class="navbar-nav">
                         <li class="mb-4"><hr class="dropdown-divider"></li>
@@ -103,6 +99,5 @@
                         </li>
                     </ul>
                 </nav>
-             
             </div>
           </div>

@@ -1,12 +1,9 @@
 <div class="page">
 <?php
-
 require_once 'components/header.php';
 require_once 'components/nav_client.php';
 require_once 'components/sidenav_client.php';
-
 ?>
-
 <div>
 <main class="mt-5 pt-5">
             <div class="container-fluid">
@@ -32,11 +29,8 @@ require_once 'components/sidenav_client.php';
                   </p>
                 <h1>LOREM IPSUM</h1>
               </div>
-
-
             </div>
           </main>
-
 </div>
 </div>
 <div id="loading"></div>

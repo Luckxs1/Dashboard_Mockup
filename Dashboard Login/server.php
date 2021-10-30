@@ -1,12 +1,9 @@
 <div class="page">
 <?php
-
 require_once 'components/header.php';
 require_once 'components/nav_server.php';
 require_once 'components/sidenav_server.php';
-
 ?>
-
 <div>
 <main class="mt-5 pt-5">
             <div class="container-fluid">
@@ -82,7 +79,6 @@ require_once 'components/sidenav_server.php';
             
             </div>
           </main>
-
 </div>
 </div>
 <div id="loading"></div>

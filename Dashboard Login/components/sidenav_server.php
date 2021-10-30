@@ -1,9 +1,5 @@
 <div class="offcanvas offcanvas-start sidebar-nav bg-dark text-white" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
-            <!-- <div class="offcanvas-header">
-             
-            </div> -->
             <div class="offcanvas-body p-0">
-                
                 <nav class="navbar-dark">
                     <ul class="navbar-nav">
                         <li class="mb-4"><hr class="dropdown-divider"></li>
@@ -12,16 +8,6 @@
                             <h2>server</h2>
                             </div>
                         </li>
-                        <!-- <li>
-                            <a href="#" class="nav-link px-3 active">
-                                <span class="me-2">
-                                    <i class="bi bi-speedometer2"></i>
-                                </span>
-                                <span data-bs-toggle="offcanvas" href="#offcanvasExample" role="button">
-                                    Dashboard
-                                </span>
-                            </a>
-                        </li> -->
                         <li class="my-4"><hr class="dropdown-divider"></li>
                         <li>
                             <div class="text-muted small fw-bold text-uppercase px-3">
@@ -34,7 +20,6 @@
                                 <span>TO database</span>
                                 <span class="right-icon ms-auto"><i class="bi bi-chevron-down"></i></span>
                             </a>
-
                               <div class="collapse" id="collapseMenu">
                                 <div class="">
                                     <ul class="navbar-nav ps-3">
@@ -70,6 +55,5 @@
                         </li> 
                     </ul>
                 </nav>
-             
             </div>
           </div>
