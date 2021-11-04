@@ -12,7 +12,9 @@
     background-position: center;
     background-size: 100px 100px;
   }
-
+  .toe_ {
+    width: 700px;
+  }
   .page    { display: none; transition: 2s;}
 
   /* NAV */
